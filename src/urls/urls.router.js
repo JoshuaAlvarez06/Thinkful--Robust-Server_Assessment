@@ -1,4 +1,4 @@
-const router = require("express").Router({ mergeParams: true });
+const router = require("express").Router();
 const controller = require("./urls.controller");
 const methodNotAllowed = require("../errors/methodNotAllowed");
 const usesRouter = require("../uses/uses.router");
